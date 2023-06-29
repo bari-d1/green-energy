@@ -166,7 +166,7 @@ body {
       transform: translateY(0);
     }
   }
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     body {
       display: flex;
       flex-direction: column;
@@ -194,12 +194,12 @@ body {
       width: 800px;
       margin: 20px auto;
     }
-  }
+  } */
   
-  Large desktop styles
+  /* Large desktop styles
   @media (min-width: 1200px) {
     body {
       max-width: 1200px;
       margin: 0 auto;
     }
-  }
+  } */
