@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Retailer Carbon Emissions Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#emissions-results">Emissions Results</a></li>
+      <li><a href="#sustainability-suggestions">Sustainability Suggestions</a></li>
+      <li><a href="#benchmark-score">Benchmark Score</a></li>
+      <li><a href="#leaderboard">Leaderboard</a></li>
+    </ul>
+  </nav>
+  
+  <section id="home">
+    <h1>Retailer Carbon Emissions Calculator</h1>
+    
+    <form id="emissions-form">
+      <h2>Enter Energy Consumption Data</h2>
+      <label for="energy-bills">Energy/Utility Bills:</label>
+      <input type="file" id="energy-bills" accept=".csv" required>
+      <p class="hint">Upload energy/utility bills in CSV format.</p>
+      
+      <label for="waste-data">Waste Disposal Data:</label>
+      <input type="file" id="waste-data" accept=".csv" required>
+      <p class="hint">Upload waste disposal data in CSV format.</p>
+      
+      <label for="vehicle-records">Vehicle Mileage Records:</label>
+      <input type="file" id="vehicle-records" accept=".csv" required>
+      <p class="hint">Upload vehicle mileage records in CSV format.</p>
+      
+      <button type="submit">Calculate Emissions</button>
+    </form>
+  </section>
+
+  <section id="emissions-results">
+    <h2>Emissions Results</h2>
+    <div id="results-container">
+      <p>Total CO2 Emissions: 1,250 tons</p>
+      <p>Energy Consumption: 15,000 MWh</p>
+      <p>Waste Generated: 500 tons</p>
+      <p>Vehicle Emissions: 250 tons</p>
+    </div>
+  </section>
+  
+  
+  
+  
+  
+  
+  <section id="sustainability-suggestions">
+    <h2>Sustainability Suggestions</h2>
+    <div id="suggestions-container">
+      <h3>Energy Efficiency</h3>
+      <ul>
+        <li>Implement LED lighting throughout the store.</li>
+        <li>Upgrade to energy-efficient appliances and equipment.</li>
+        <li>Optimize heating and cooling systems.</li>
+      </ul>
+      
+      <h3>Waste Reduction</h3>
+      <ul>
+        <li>Establish a recycling program for packaging materials.</li>
+        <li>Encourage reusable bags and reduce plastic bag usage.</li>
+        <li>Collaborate with suppliers to minimize product packaging.</li>
+      </ul>
+      
+      <h3>Transportation</h3>
+      <ul>
+        <li>Incorporate hybrid or electric vehicles into the delivery fleet.</li>
+        <li>Encourage employees to carpool or use public transportation.</li>
+        <li>Explore options for local sourcing to reduce transportation distance.</li>
+      </ul>
+    </div>
+  </section>
+
+  
+  <section id="benchmark-score">
+    <h2>Benchmark Score</h2>
+    <p>Your sustainability performance benchmark score: 80/100</p>
+  </section>
+  <section id="leaderboard">
+    <h2>Leaderboard</h2>
+    <ol>
+      <li><h3>Company A - 90/100</h3></li>
+      <li>Company B - 85/100</li>
+      <li><strong>Your company - 80/100</strong></li>
+      <li>Company C - 78/100</li>
+    </ol>
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
