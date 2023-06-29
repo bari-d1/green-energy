@@ -196,7 +196,7 @@ body {
     }
   }
   
-  /* Large desktop styles */
+  Large desktop styles
   @media (min-width: 1200px) {
     body {
       max-width: 1200px;
